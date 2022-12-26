@@ -6,7 +6,7 @@ class Header extends Component {
     super(tagName, className);
   }
 
-  renderPageLinks() {
+  renderHeader() {
     const container = document.createElement('div');
     container.className = 'container';
 
@@ -27,7 +27,7 @@ class Header extends Component {
   }
 
   render() {
-    this.renderPageLinks();
+    this.renderHeader();
     return this.container;
   }
 }
