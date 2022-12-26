@@ -9,7 +9,7 @@ class Footer extends Component {
     const container = document.createElement('div');
     container.className = 'container footer__container';
 
-    const pageLink = `
+    const componentCode = `
       <div class="footer__info">© 2022</div>
       <div class="footer__authors">
         <a class="footer__link footer__link_github" href="https://github.com/vadim-m" target="_blank"></a>
@@ -20,7 +20,7 @@ class Footer extends Component {
       <a class="footer__link footer__link_rss" href="https://rs.school/js/" target="_blank"></a>
     `;
 
-    container.innerHTML = pageLink;
+    container.innerHTML = componentCode;
 
     this.container.append(container);
   }
