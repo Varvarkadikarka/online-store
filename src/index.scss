@@ -1,0 +1,18 @@
+@import './assets/style/_vars.scss';
+@import './assets/style/_mixins.scss';
+@import './assets/style/_fonts.scss';
+@import './assets/style/_normalize.scss';
+@import './assets/style/_layout';
+
+// components
+@import './assets/style/components/_header';
+@import './assets/style/components/_footer';
+@import './assets/style/components/_catalog';
+@import './assets/style/components/_search';
+@import './assets/style/components/_sort';
+@import './assets/style/components/_product';
+
+@import './components/error/_error.scss';
+@import './components/modal-form/_modal-form.scss';
+@import './components/cart/_cart.scss';
+@import './components/modal-form/_successPurchase.scss';

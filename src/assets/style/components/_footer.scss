@@ -1,0 +1,48 @@
+.footer {
+  padding: rem(10) 0;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__authors {
+    display: flex;
+    align-items: center;
+  }
+
+  &__author {
+    margin-right: rem(8);
+  }
+
+  &__link {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.65;
+    transition: opacity 0.2s ease;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+    &_github {
+      width: 3rem;
+      height: 3rem;
+      background-image: url(./assets/img/footer/github.svg);
+    }
+
+    &_rss {
+      width: 5rem;
+      height: 3rem;
+      background-image: url(./assets/img/footer/rss.svg);
+    }
+  }
+
+  &__info {
+    font-size: rem(24);
+  }
+}

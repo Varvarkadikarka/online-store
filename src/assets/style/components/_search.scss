@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-bottom: rem(24);
+
+  &__input {
+    display: block;
+    width: 100%;
+    font-size: rem(16);
+    color: var(--black);
+
+    border: 1px solid var(--gray-light);
+    border-radius: 2px;
+    transition: border-color 0.15s;
+
+    padding: rem(12);
+    margin-bottom: rem(24);
+  }
+
+  &__result {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: rem(20);
+  }
+}
